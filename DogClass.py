@@ -4,6 +4,11 @@ class Dog:
         self.age = age
         self.breed = breed
 
-dog = Dog("SHADOW", 4, "German shepard")#creating object for Dog class
-print(dog.name)
-print(dog.age)        
+    def bark(self):
+        print(f"Hello {self.name}!")
+
+dog1 = Dog("SHADOW", 4, "German shepard")#creating object for Dog class
+print(dog1.name)
+print(dog1.age)
+print(dog1.breed)
+dog1.bark()
